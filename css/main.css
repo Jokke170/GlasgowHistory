@@ -23,7 +23,7 @@ body, html {
 }
 
 .pimg1 {
-  background-image: url('https://drive.google.com/file/d/1_H7LRfzrte4lxPKnVpL9UCigqtzBGRSc/view?usp=drive_open');
+  background-image: url(https://drive.google.com/file/d/1_H7LRfzrte4lxPKnVpL9UCigqtzBGRSc/view?usp=drive_open);
   min-height: 80%;
 }
 
