@@ -73,6 +73,33 @@ body, html {
   background-color: transparent;
 }
 
+p {
+  text-align: center;
+  padding: 20px 60px;
+}
+.btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 1.2em;
+}
+&:hover {
+  color: #C57ED3;
+  border-color: #C57ED3;
+}
+
+.navbar {
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+
+
 @media(max-width:568px;){
   .pimg1, .pimg2, .pimg3 {
     background-attachment: scroll;
