@@ -23,8 +23,8 @@ body, html {
 }
 
 .pimg1 {
-  background-image: url("");
-  min-height: 80%;
+  background-image: url("../img/image1.jpg");
+  min-height: 85%;
 }
 
 .pimg2 {
