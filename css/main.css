@@ -9,25 +9,44 @@ body, html {
 }
 
 /* navbar */
-.main-menu-area {}
-.logo {}
+header {
+  position: fixed;
+  width: 100%;
+  background-color: gray;
+  opacity: 0.5;
+}
+
+.main-menu-area {
+}
+
+.logo {
+}
+
 .logo a {
-  color: #444444;
-  font-weight: 700;
+  float: left;
   display: block;
+  color: Black;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 30px;
   text-decoration: none;
+  padding: 20px;
 }
-.main-menu {}
-.main-menu ul {}
+
+.main-menu {
+
+}
+.main-menu ul {
+
+}
+
 .main-menu ul li {
   display: block;
 }
+
 .main-menu ul li a {
   float: right;
-  color: #444444;
-  display: block;
+  color: Black;
   font-weight: 700px;
   text-transform: uppercase;
   padding: 30px 20px;
