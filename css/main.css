@@ -8,34 +8,29 @@ body, html {
   color: #666;
 }
 
-.navbar {
-  overflow: hidden;
-  background: transparent;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar li {
-  float: right;
+/* navbar */
+.main-menu-area {}
+.logo {}
+.logo a {
+  color: #444444;
+  font-weight: 700;
   display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  text-transform: uppercase;
+  font-size: 30px;
   text-decoration: none;
 }
-
-.navbar li:hover {
-  background: #ddd;
-  color: black;
-}
-
-.navbar li.logo {
-  float: left;
+.main-menu {}
+.main-menu ul {}
+.main-menu ul li {
   display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+}
+.main-menu ul li a {
+  float: right;
+  color: #444444;
+  display: block;
+  font-weight: 700px;
+  text-transform: uppercase;
+  padding: 30px 20px;
   text-decoration: none;
 }
 
