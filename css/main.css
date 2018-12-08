@@ -12,41 +12,34 @@ body, html {
 header {
   position: fixed;
   width: 100%;
-  background-color: gray;
-}
-
-.main-menu-area {
+  background-color: white;
 }
 
 .logo {
+  
 }
 
-.logo a {
+.logo li {
   float: left;
   display: block;
   color: #000000;
-  font-weight: 700;
   text-transform: uppercase;
   font-size: 30px;
-  text-decoration: none;
   padding: 15px 30px;
 }
 
-.main-menu {
-
-}
-.main-menu ul {
-
+.logo li a {
+  text-decoration: none;
+  color: #000000;
 }
 
-.main-menu ul li {
+.main-menu li {
   display: block;
 }
 
-.main-menu ul li a {
+.main-menu li a {
   float: right;
   color: #000000;
-  font-weight: 700px;
   text-transform: uppercase;
   padding: 15px 30px;
   text-decoration: none;
