@@ -12,7 +12,7 @@ body, html {
 .container {
   z-index: 99;
   position: fixed;
-  padding: 15px 30px;
+  width: 100%;
 }
 
 .logo {
@@ -20,11 +20,12 @@ body, html {
 }
 
 .logo a {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
   padding: 15px 30px;
   text-decoration: none;
   display: block;
+  color: black;
 }
 
 .container ul li {
@@ -35,16 +36,16 @@ body, html {
 .container ul li a {
   text-decoration: none;
   padding: 15px 30px;
+  color: black;
+  font-size: 20px;
 }
 
 
 .pimg1, .pimg2, .pimg3 {
   position: relative;
-  opacity: 0.8;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
   /*
     Fixed = Parallax
     Scroll = Normal
@@ -82,7 +83,7 @@ body, html {
 
 .section-light {
   background-color: #f4f4f4;
-  color: #666;
+  color: #2d3436;
 }
 
 .section-dark {
@@ -102,8 +103,10 @@ body, html {
 }
 
 .ptext .border {
-  background-color: #111;
   color: white;
+  background-color: black;
+  font-weight: 500;
+  font-size: 40px;
   padding: 20px;
 }
 
